@@ -41,3 +41,20 @@ body {
   color: #222222;
   max-width: 320px;
 }
+
+.card {
+  width: 176px;
+}
+
+.card--photo > img{
+  width: 176px;
+}
+
+.card--data {
+  display: flex;
+}
+
+.card--data > img {
+  width: 20px;
+  height: 20px;
+}
