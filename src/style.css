@@ -7,6 +7,14 @@ body {
   margin: 0;
 }
 
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .nav {
   height: 70px;
   display: flex;
@@ -44,17 +52,23 @@ body {
 
 .card {
   width: 176px;
+  font-size: 12px;
 }
 
 .card--photo > img{
-  width: 176px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card--data {
   display: flex;
+  align-items: center;
 }
 
 .card--data > img {
-  width: 20px;
-  height: 20px;
+  width: 14px;
+}
+
+.card--price {
+  display: flex;
 }
